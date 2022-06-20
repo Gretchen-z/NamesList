@@ -8,11 +8,11 @@ import java.util.List;
 
 public class NamesList extends HttpServlet {
     List<String> namesList = new ArrayList<>(){{
-        add("Булыгин Константин");
-        add("Зайцева Маргарита");
-        add("Кудряшов Иван");
-        add("Михин Александр");
-        add("Тарасова Анна");
+        add("Bulygin Konstantin");
+        add("Zaytseva Margarita");
+        add("Kudryashov Ivan");
+        add("Mihin Alexandr");
+        add("Tarasova Anna");
     }};
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
