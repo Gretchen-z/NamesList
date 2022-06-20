@@ -13,6 +13,7 @@ public class NamesList extends HttpServlet {
         add("Kudryashov Ivan");
         add("Mihin Alexandr");
         add("Tarasova Anna");
+        add("Test");
     }};
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
